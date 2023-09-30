@@ -1,17 +1,33 @@
-div{
+div {
     margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p{
+p {
     color: brown;
+    text-align: justify;
 }
 
-.div_topo{
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+}
+
+.div_topo {
     margin-right: 200px;
 }
 
-.titulo-site{
-    background-color: rgb(39, 93, 175); 
+.titulo-site {
+    background-color: rgb(39, 93, 175);
     color: white;
 }
 
+.tabela,
+th,
+td {
+    align-self: center;
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+}
