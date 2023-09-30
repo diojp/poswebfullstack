@@ -1,7 +1,7 @@
 # poswebfullstack
 Repositósio Destinado as aplicações da Pós Web FullStack
 
-##Aluno
+## Aluno
  Diego Magno Tavares da Silva
- 
-Email: dio_jp@hotmail.com
+## Email
+dio_jp@hotmail.com
