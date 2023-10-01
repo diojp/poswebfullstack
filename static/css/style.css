@@ -1,33 +1,115 @@
-div {
-    margin-left: 100px;
-    margin-right: 100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+	background-image: url(/static/img/background.jpg);
+	background-position: left top;
+	background-repeat: repeat;
+	padding: 15px;
 }
 
+div {
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
 p {
-    color: brown;
-    text-align: justify;
+	color: white;
+	text-align: justify;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: chocolate;
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
 }
 
 .div_topo {
-    margin-right: 200px;
+	margin-right: 200px;
 }
 
 .titulo-site {
-    background-color: rgb(39, 93, 175);
-    color: white;
+	background-color: rgb(39, 93, 175);
+	color: white;
 }
 
 .tabela,
 th,
 td {
-    align-self: center;
-    width: 50%;
-    border: 2px solid black;
-    text-align: center;
+	align-self: center;
+	width: 50%;
+	border: 2px solid black;
+	text-align: center;
+}
+
+nav {
+	margin: center;
+	max-width: 457px;
+	background: #008FEA;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, .15);
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	color: rgba(255, 255, 255, .9);
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus {
+	color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+	padding-left: 4px;
+	content: ' ▾';
+}
+
+nav ul li ul li {
+	min-width: 190px;
+}
+
+nav ul li ul li a {
+	background: transparent;
+	color: #555;
+	border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+	background: #eee;
+	color: #111;
+}
+
+
+#p-geral {
+	background: url(/static/img/luffy.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 10%;
+	padding: 15px;
 }
